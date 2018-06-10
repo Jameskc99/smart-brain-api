@@ -55,7 +55,7 @@ app.use(cors());
 // 		}
 // 	]
 // }
-
+// change here
 app.get('/', (req, res) => { res.send(database.users) });
 // app.get('/', (req, res) => { res.send('it is working') });
 // app.use(express.static(__dirname + '/public'));
